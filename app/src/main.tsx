@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import App from './App.tsx'
 import Home from './pages/Home.tsx'
 import About from './pages/About.tsx'
@@ -17,6 +17,7 @@ createRoot(document.getElementById('root')!).render(
           <Route path="about" element={<About/>}/>
           {/* <Route path="blog" element={<Blog/>}/> */}
           <Route path="projects" element={<Projects/>}/>
+          <Route path="*" element={<Navigate to="/"/>} />
         </Route>
       </Routes>
     </HashRouter>
