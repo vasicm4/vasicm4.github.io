@@ -1,9 +1,11 @@
 
 function Projects() {
     return(
-        <>
-            Projects
-        </>
+        <section>
+            <div className="projects">
+                <h1 className="title">Projects</h1>
+            </div>
+        </section>
     )
 }
 

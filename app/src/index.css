@@ -67,3 +67,39 @@ main {
 .subtitle {
     @apply text-center text-3xl font-semibold font-mono py-4
 }
+
+.about {
+    @apply px-16 py-16 md:px-32 md:py-32
+}
+
+.profile {
+    @apply p-16 md:px-64 grid grid-cols-2 grid-rows-2 space-x-8 space-y-8
+}
+
+.profileleft {
+    @apply row-start-1 md:row-span-2 col-start-1 md:col-span-2 
+}
+
+.profileright {
+    @apply row-start-2 md:row-start-1 md:row-span-2 md:col-start-2 md:col-span-2
+}
+
+.projects {
+    @apply px-16 py-16 md:px-32 md:py-32   
+}
+
+.timeline {
+    @apply md:px-64 grid grid-cols-1 grid-rows-1
+}
+
+.timelinestart {
+    @apply py-32 md:p-32 justify-center col-start-1 row-start-1
+}
+
+.dot {
+    @apply absolute w-5 h-5 rounded-[10px] bg-[#cfcfcf] border-2 border-white;
+}
+
+li {
+    @apply text-gray-600
+}

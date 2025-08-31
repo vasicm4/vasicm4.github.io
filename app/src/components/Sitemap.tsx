@@ -9,21 +9,21 @@ function Sitemap () {
                     Home
                 </NavLink>
             </div>
-            {/* <div className="sitemapitem">
+            <div className="sitemapitem">
                 <NavLink to="about" end>
                     About
                 </NavLink>
             </div>
-            <div className="sitemapitem">
+            {/* <div className="sitemapitem">
                 <NavLink to="blog" end>
                     Blog
                 </NavLink>
-            </div>
+            </div> */}
             <div className="sitemapitem">
                 <NavLink to="projects" end>
                     Projects
                 </NavLink>
-            </div>    */}
+            </div>   
         </div>
             <h2 className="sitemapitem text-center">
                 &copy; 2025 Maksim Vasic
