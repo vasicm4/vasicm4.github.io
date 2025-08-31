@@ -1,4 +1,5 @@
 import Timeline from "../components/Timeline";
+import Me from "../assets/picture.jpg"
 
 function About() {
     return(
@@ -7,7 +8,7 @@ function About() {
                 <h1 className="title">About Me</h1>
                 <div className="profile">
                     <div className="profileleft">
-                        <img src="..\src\assets\picture.jpg" alt="My picture" className="w-48 h-48 rounded-full object-cover"/>
+                        <img src={Me} alt="My picture" className="w-48 h-48 rounded-full object-cover"/>
                         <h1 className="p-8 text-gray-600 font-semibold text-xl md:text-3xl">Maksim Vasic</h1>
                     </div>
                     <ul className="profileright">
