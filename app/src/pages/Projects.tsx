@@ -13,7 +13,7 @@ function Projects() {
             <div className="projects">
                 <h1 className="title">Projects</h1>
             </div>
-            <div className="grid px-8 xl:grid-cols-2 xl:grid-rows-3 xl:px-32 gap-16 pb-32">
+            <div className="grid px-2 sm:px-4 xl:grid-cols-2 xl:grid-rows-3 xl:px-32 gap-16 pb-32">
                 <Project type="xl:col-start-1 xl:row-start-1 project" image={<img src={blackbox} alt="Black Box" className="max-w-64 max-h-64 rounded-xl"/>} title="blackbox" link="https://github.com/vasicm4/black-box-optimization" description="This project applies a genetic algorithm to a BlackBox optimization problem, specifically targeting the optimization of neural network parameters when the error function is unknown in analytic form"/>
                 <Project type="xl:col-start-2 xl:row-start-1 project" image={<img src={checkers} alt="Checkers" className="max-w-64 max-h-64 rounded-xl"/>} title="Checkers" link="https://github.com/vasicm4/checkers" description="Checkers game featuring an AI that makes strategic moves using the Minimax algorithm with Alpha-Beta pruning for optimal decision-making."/>
                 <Project type="xl:col-start-1 xl:row-start-2 project"  image={<img src={nosqldb} alt="Key-Value Engine" className="max-w-72 max-h-72 rounded-xl"/>} title="Key-Value Engine" link="https://github.com/vasicm4/key-value-engine" description="This group project implements a Key-Value storage engine as a console application. The system supports basic operations and builds upon the Log-Structured Merge-Tree (LSM) architecture to ensure efficient data persistence and retrieval."/>
