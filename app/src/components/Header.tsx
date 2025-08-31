@@ -20,11 +20,11 @@ function Header() {
                         BLOG
                     </NavLink>
                 </div> */}
-                {/* <div className="navitem">
+                <div className="navitem">
                     <NavLink to="projects" end>
                         PROJECTS
                     </NavLink>
-                </div> */}
+                </div>
             </div>
         </header>
     )

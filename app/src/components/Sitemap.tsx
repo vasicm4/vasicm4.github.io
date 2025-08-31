@@ -19,11 +19,11 @@ function Sitemap () {
                     Blog
                 </NavLink>
             </div> */}
-            {/* <div className="sitemapitem">
+            <div className="sitemapitem">
                 <NavLink to="projects" end>
                     Projects
                 </NavLink>
-            </div>    */}
+            </div>   
         </div>
             <h2 className="sitemapitem text-center">
                 &copy; 2025 Maksim Vasic

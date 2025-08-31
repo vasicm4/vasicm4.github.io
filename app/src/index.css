@@ -91,3 +91,7 @@ main {
 li {
     @apply text-gray-600
 }
+
+.project {
+    @apply border-2 rounded-xl
+}

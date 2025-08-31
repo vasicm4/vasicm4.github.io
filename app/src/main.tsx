@@ -6,7 +6,7 @@ import App from './App.tsx'
 import Home from './pages/Home.tsx'
 import About from './pages/About.tsx'
 // import Blog from './pages/Blog.tsx'
-// import Projects from './pages/Projects.tsx'
+import Projects from './pages/Projects.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -16,7 +16,7 @@ createRoot(document.getElementById('root')!).render(
           <Route path="" element={<Home/>}/>
           <Route path="about" element={<About/>}/>
           {/* <Route path="blog" element={<Blog/>}/> */}
-          {/* <Route path="projects" element={<Projects/>}/> */}
+          <Route path="projects" element={<Projects/>}/>
         </Route>
       </Routes>
     </HashRouter>
