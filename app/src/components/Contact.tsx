@@ -7,7 +7,7 @@ function Contact() {
             <h1 className="contact">Contact Me</h1>
             <div className="contactitem">
                 <EmailLogo/>
-                <a href="mailto:vasicmaksim4@gmail.com">vasicmaksim4@gmail.com</a>
+                <a href="mailto:vasicmaksim4@gmail.com" className="text-sm md:text-xl">vasicmaksim4@gmail.com</a>
             </div>
             <div className="contactitem">
                 <WhatsAppLogo/>

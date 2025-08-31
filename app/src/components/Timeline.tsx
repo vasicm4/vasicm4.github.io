@@ -17,8 +17,8 @@ function Timeline() {
                             <ul className="list-disc ml-4 mt-2 pb-5">
                                 <li>Explored physical and civil engineering aspects of urban flood risk management.</li>
                                 <li>Studied and applied Convolutional Neural Networks (CNNs), LSTM networks and graph networks for flood modeling.</li>
-                                <li>Developed predictive flood models integrating AI and machine learning for real-world scenarios.</li>
-                                <li>Collaborated in a team to prepare a pitch and project for a startup competition, achieving <strong>2nd place among 20 participants</strong>.</li>
+                                <li>AI and machine learning integration in real-world scenarios.</li>
+                                <li>Collaborated in a team to prepare a pitch and project for a startup competition.</li>
                                 <li>Gained hands-on experience in interdisciplinary problem-solving, combining engineering, AI, and entrepreneurial skills.</li>
                             </ul>
                             <h3 className="font-semibold">StartIt Hot AI Summer</h3>
