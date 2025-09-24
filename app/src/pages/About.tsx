@@ -5,7 +5,7 @@ function About() {
     return(
         <section className="about">
             <h1 className="title">About Me</h1>
-            <div className="py-20">
+            <div className="">
                 <div className="profile">
                     <div className="profileleft">
                         <img src={Me} alt="My picture" className="w-48 h-48 rounded-full object-cover"/>

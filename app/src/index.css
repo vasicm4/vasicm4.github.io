@@ -81,7 +81,7 @@ main {
 }
 
 .timelinestart {
-    @apply py-32 xl:p-32 justify-center col-start-1 row-start-1
+    @apply py-16 justify-center col-start-1 row-start-1
 }
 
 .dot {
@@ -93,5 +93,5 @@ li {
 }
 
 .project {
-    @apply border-2 rounded-xl
+    @apply sm:border-2 border-t-2 sm:rounded-xl
 }
