@@ -26,7 +26,7 @@ function Sitemap () {
             </div>   
         </div>
             <h2 className="sitemapitem text-center">
-                &copy; 2025 Maksim Vasic
+                &copy; 2026 Maksim Vasic
             </h2>
         </>
     )

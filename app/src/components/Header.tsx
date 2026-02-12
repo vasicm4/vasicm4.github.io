@@ -12,7 +12,7 @@ function Header() {
             <div className="navlist">
                 <div className="navitem">
                     <NavLink to="about" end>
-                        ABOUT
+                        About
                     </NavLink>
                 </div>
                 {/* <div className="navitem">
@@ -22,7 +22,7 @@ function Header() {
                 </div> */}
                 <div className="navitem">
                     <NavLink to="projects" end>
-                        PROJECTS
+                        Projects
                     </NavLink>
                 </div>
             </div>
