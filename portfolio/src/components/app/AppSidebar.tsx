@@ -8,6 +8,7 @@ import {
     SidebarMenuItem,
 } from "@/components/ui/sidebar"
 import {HomeIcon, InfoIcon, PresentationIcon} from "lucide-react";
+import {Link} from "react-router-dom";
 
 export function AppSidebar() {
     return (
@@ -25,38 +26,38 @@ export function AppSidebar() {
                 <SidebarGroup>
                     <SidebarMenuItem>
                         <SidebarMenuButton asChild>
-                            <div className="flex w-full items-center justify-center py-8">
+                            <Link to={"/home"}  className="flex w-full items-center justify-center py-8">
                                 <div className="flex w-44 items-center gap-6">
                                       <span className="flex justify-center">
                                         <HomeIcon />
                                       </span>
                                     <span className="font-open-sans text-xl">Home</span>
                                 </div>
-                            </div>
+                            </Link>
                         </SidebarMenuButton>
                     </SidebarMenuItem>
                     <SidebarMenuItem>
                         <SidebarMenuButton asChild>
-                            <div className="flex w-full items-center justify-center py-8">
+                            <Link to={"/about"} className="flex w-full items-center justify-center py-8">
                                 <div className="flex w-44 items-center gap-6">
                                       <span className="flex justify-center">
                                         <InfoIcon />
                                       </span>
                                     <span className="font-open-sans text-xl">About</span>
                                 </div>
-                            </div>
+                            </Link>
                         </SidebarMenuButton>
                     </SidebarMenuItem>
                     <SidebarMenuItem>
                         <SidebarMenuButton asChild>
-                            <div className="flex w-full items-center justify-center py-8">
+                            <Link to={"/projects"}  className="flex w-full items-center justify-center py-8">
                                 <div className="flex w-44 items-center gap-6">
                                       <span className="flex justify-center">
                                         <PresentationIcon />
                                       </span>
                                     <span className="font-open-sans text-xl">Projects</span>
                                 </div>
-                            </div>
+                            </Link>
                         </SidebarMenuButton>
                     </SidebarMenuItem>
                 </SidebarGroup>
