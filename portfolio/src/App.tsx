@@ -12,7 +12,7 @@ function App() {
     <ThemeProvider defaultTheme={"dark"} storageKey={"vite-ui-theme"}>
         <SidebarProvider>
             <AppSidebar />
-            <main>
+            <main className="">
                 <Routes>
                     <Route path="/home" element={<AppHome />} />
                     <Route path="/about" element={<AppAbout />} />

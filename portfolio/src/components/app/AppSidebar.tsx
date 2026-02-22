@@ -9,16 +9,19 @@ import {
 } from "@/components/ui/sidebar"
 import {HomeIcon, InfoIcon, PresentationIcon} from "lucide-react";
 import {Link} from "react-router-dom";
+import {Avatar, AvatarImage} from "@/components/ui/avatar.tsx";
 
 export function AppSidebar() {
     return (
         <Sidebar>
-            <SidebarHeader className={"py-4 border-b"}>
+            <SidebarHeader className={"py-8 border-b"}>
                 <div className={"flex items-center justify-center gap-4"}>
-                    <img src={"src/assets/picture.jpg"} alt="My picture" className="w-8 h-8 rounded-full object-cover"/>
+                    <Avatar size={"lg"}>
+                        <AvatarImage src={"src/assets/picture.jpg"} />
+                    </Avatar>
                     <div className={"flex flex-col justify-start items-start"}>
-                        <h1 className={"font-open-sans text-center text-xl font-medium"}>Maksim Vasic</h1>
-                        <h1 className={"font-open-sans text-center text-sm font-normal"}>Software Developer</h1>
+                        <h1 className={"font-open-sans text-center text-lg font-medium"}>Maksim Vasic</h1>
+                        <h1 className={"font-open-sans text-center text-sm font-extralight"}>Software Developer</h1>
                     </div>
                 </div>
             </SidebarHeader>
@@ -27,7 +30,7 @@ export function AppSidebar() {
                     <SidebarMenuItem>
                         <SidebarMenuButton asChild>
                             <Link to={"/home"}  className="flex w-full items-center justify-center py-8">
-                                <div className="flex w-44 items-center gap-6">
+                                <div className="flex w-40 items-center gap-6">
                                       <span className="flex justify-center">
                                         <HomeIcon />
                                       </span>
@@ -39,7 +42,7 @@ export function AppSidebar() {
                     <SidebarMenuItem>
                         <SidebarMenuButton asChild>
                             <Link to={"/about"} className="flex w-full items-center justify-center py-8">
-                                <div className="flex w-44 items-center gap-6">
+                                <div className="flex w-40 items-center gap-6">
                                       <span className="flex justify-center">
                                         <InfoIcon />
                                       </span>
@@ -51,7 +54,7 @@ export function AppSidebar() {
                     <SidebarMenuItem>
                         <SidebarMenuButton asChild>
                             <Link to={"/projects"}  className="flex w-full items-center justify-center py-8">
-                                <div className="flex w-44 items-center gap-6">
+                                <div className="flex w-40 items-center gap-6">
                                       <span className="flex justify-center">
                                         <PresentationIcon />
                                       </span>
