@@ -17,8 +17,8 @@ function Timeline() {
                             <h3 className="text-xl font-open-sans">Full Stack Software Development Intern</h3>
                             <h3 className="pb-5 font-open-sans"><i>Novi Sad, Serbia</i></h3>
                             <ul className="list-disc ml-4 mt-2 font-open-sans">
-                                <li>Developed and maintained a <span className="font-semibold">device simulator</span> that helps engineers facilitate platform testing, allowing validation of data ingestion pipelines without requiring physical industrial hardware.</li>
-                                <li>Collaborated with the core engineering team to integrate an <span className="font-semibold"> OPC device service </span> into the platform, enhancing its industrial interoperability.</li>
+                                <li>Developed and maintained a <span className="font-semibold">simulator software</span> that helps engineers facilitate platform testing, allowing validation of data ingestion pipelines without requiring physical industrial hardware.</li>
+                                <li>Collaborated with the core engineering team to integrate various services into the platform, enhancing its industrial interoperability.</li>
                             </ul>
                         </div>
                     </li>

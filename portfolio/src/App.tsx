@@ -9,10 +9,10 @@ import {ThemeProvider} from "@/components/providers/ThemeProvider.tsx";
 
 function App() {
   return (
-    <ThemeProvider defaultTheme={"dark"} storageKey={"vite-ui-theme"}>
+    <ThemeProvider defaultTheme={"system"} storageKey={"vite-ui-theme"}>
         <SidebarProvider>
             <AppSidebar />
-            <main className="">
+            <main className="w-full">
                 <Routes>
                     <Route path="/home" element={<AppHome />} />
                     <Route path="/about" element={<AppAbout />} />
