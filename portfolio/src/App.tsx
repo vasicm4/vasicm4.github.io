@@ -1,0 +1,31 @@
+import './App.css'
+import {SidebarProvider, SidebarTrigger} from "@/components/ui/sidebar.tsx";
+import {AppSidebar} from "@/components/app/AppSidebar.tsx";
+import {Navigate, Route, Routes} from "react-router-dom";
+import AppHome from "@/pages/AppHome.tsx";
+import AppAbout from "@/pages/AppAbout.tsx";
+import AppProjects from "@/pages/AppProjects.tsx";
+import {ThemeProvider} from "@/components/providers/ThemeProvider.tsx";
+
+function App() {
+  return (
+    <ThemeProvider defaultTheme={"system"} storageKey={"vite-ui-theme"}>
+        <SidebarProvider>
+            <AppSidebar />
+            <main className="w-full">
+                <header className="flex h-16 items-center border-b md:hidden bg-sidebar">
+                    <SidebarTrigger />
+                </header>
+                <Routes>
+                    <Route path="/home" element={<AppHome />} />
+                    <Route path="/about" element={<AppAbout />} />
+                    <Route path="/projects" element={<AppProjects />} />
+                    <Route path="*" element={<Navigate to="/home" replace />} />
+                </Routes>
+            </main>
+        </SidebarProvider>
+    </ThemeProvider>
+  )
+}
+
+export default App;
