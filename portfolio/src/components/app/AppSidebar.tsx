@@ -53,7 +53,7 @@ export function AppSidebar() {
                     </SidebarMenuItem>
                     <SidebarMenuItem>
                         <SidebarMenuButton asChild>
-                            <Link to={"/projects"}  className="flex w-full items-center justify-center py-8">
+                            <Link to={"/projects"} className="flex w-full items-center justify-center py-8">
                                 <div className="flex w-40 items-center gap-6">
                                       <span className="flex justify-center">
                                         <PresentationIcon />

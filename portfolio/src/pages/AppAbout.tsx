@@ -9,16 +9,16 @@ function AppAbout() {
                     <h1 className="font-open-sans text-3xl md:text-4xl font-bold mb-8">About</h1>
                     <div className="flex flex-col xl:px-16 lg:flex-row items-center lg:items-center justify-start gap-10">
                         <div className="flex flex-col justify-start w-full lg:w-1/2 font-open-sans space-y-6 order-2 lg:order-1">
-                            <p className="text-xl md:text-2xl leading-relaxed text-center lg:text-left md:text-balance">
+                            <p className="text-xl leading-relaxed text-center lg:text-left md:text-balance">
                                 - Passionate about software development and systems design
                             </p>
-                            <p className="text-xl md:text-2xl leading-relaxed text-center lg:text-left md:text-balance">
+                            <p className="text-xl leading-relaxed text-center lg:text-left md:text-balance">
                                 - Eager to explore new ideas, concepts and technologies
                             </p>
-                            <p className="text-xl md:text-2xl leading-relaxed text-center lg:text-left md:text-balance">
+                            <p className="text-xl leading-relaxed text-center lg:text-left md:text-balance">
                                 - Blending teamwork, leadership and innovation in every project
                             </p>
-                            <p className="text-xl md:text-2xl leading-relaxed text-center lg:text-left md:text-balance">
+                            <p className="text-xl leading-relaxed text-center lg:text-left md:text-balance">
                                 - I enjoy turning challenges into opportunities for growth
                             </p>
                         </div>
