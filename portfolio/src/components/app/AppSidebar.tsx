@@ -23,7 +23,7 @@ export function AppSidebar() {
             <SidebarHeader className={"py-8 border-b"}>
                 <div className={"flex items-center justify-center gap-4"}>
                     <Avatar size={"lg"}>
-                        <AvatarImage src={"src/assets/picture.jpg"} />
+                        <AvatarImage src={"picture.jpg"} />
                     </Avatar>
                     <div className={"flex flex-col justify-start items-start"}>
                         <h1 className={"font-open-sans text-center text-lg font-medium"}>Maksim Vasic</h1>

@@ -9,7 +9,7 @@ function AppHome() {
             <div className="p-4 md:p-8 md:px-10 bg-sidebar h-full flex flex-col items-center justify-center">
                 <div className="space-y-8 flex flex-col items-center justify-center py-16">
                     <Avatar className="w-36 h-36">
-                        <AvatarImage src={"src/assets/picture.jpg"} />
+                        <AvatarImage src={"picture.jpg"} />
                     </Avatar>
                     <h1 className="text-5xl md:text-7xl font-bold tracking-tight">Maksim Vasic</h1>
                     <p className="text-xl md:text-2xl leading-relaxed text-center">Building robust systems and industrial-grade software solutions.</p>

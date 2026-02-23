@@ -23,7 +23,7 @@ function AppAbout() {
                             </p>
                         </div>
                         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end order-1 lg:order-2">
-                            <img className="w-full max-w-md lg:max-w-xl h-auto rounded-lg shadow-md object-cover" src="src/assets/systems.jpg" alt="Systems design"/>
+                            <img className="w-full max-w-md lg:max-w-xl h-auto rounded-lg shadow-md object-cover" src="systems.jpg" alt="Systems design"/>
                         </div>
                     </div>
                     <div className="mt-16 border-t py-16">
