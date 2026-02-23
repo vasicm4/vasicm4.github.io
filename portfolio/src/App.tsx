@@ -1,5 +1,5 @@
 import './App.css'
-import {SidebarProvider} from "@/components/ui/sidebar.tsx";
+import {SidebarProvider, SidebarTrigger} from "@/components/ui/sidebar.tsx";
 import {AppSidebar} from "@/components/app/AppSidebar.tsx";
 import {Navigate, Route, Routes} from "react-router-dom";
 import AppHome from "@/pages/AppHome.tsx";
@@ -13,6 +13,9 @@ function App() {
         <SidebarProvider>
             <AppSidebar />
             <main className="w-full">
+                <header className="flex h-16 items-center border-b md:hidden bg-sidebar">
+                    <SidebarTrigger />
+                </header>
                 <Routes>
                     <Route path="/home" element={<AppHome />} />
                     <Route path="/about" element={<AppAbout />} />

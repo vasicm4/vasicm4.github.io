@@ -8,7 +8,7 @@ function AppProjects() {
                 <div className="">
                     <h1 className="font-open-sans text-2xl font-bold">Projects</h1>
                 </div>
-                <div className="grid lg:grid-cols-3 py-8 gap-4">
+                <div className="grid xl:grid-cols-3 py-8 gap-4">
                     <Card className="">
                         <CardHeader>
                             <CardTitle className="font-open-sans">NoSqlDB - Key Value Database</CardTitle>

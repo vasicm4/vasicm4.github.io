@@ -5,13 +5,19 @@ import {
     SidebarGroup,
     SidebarHeader,
     SidebarMenuButton,
-    SidebarMenuItem,
+    SidebarMenuItem, useSidebar,
 } from "@/components/ui/sidebar"
 import {HomeIcon, InfoIcon, PresentationIcon} from "lucide-react";
 import {Link} from "react-router-dom";
 import {Avatar, AvatarImage} from "@/components/ui/avatar.tsx";
 
 export function AppSidebar() {
+    const { setOpenMobile } = useSidebar();
+
+    const handleLinkClick = () => {
+        setOpenMobile(false);
+    };
+
     return (
         <Sidebar>
             <SidebarHeader className={"py-8 border-b"}>
@@ -29,7 +35,7 @@ export function AppSidebar() {
                 <SidebarGroup>
                     <SidebarMenuItem>
                         <SidebarMenuButton asChild>
-                            <Link to={"/home"}  className="flex w-full items-center justify-center py-8">
+                            <Link to={"/home"}  className="flex w-full items-center justify-center py-8" onClick={handleLinkClick}>
                                 <div className="flex w-40 items-center gap-6">
                                       <span className="flex justify-center">
                                         <HomeIcon />
@@ -41,7 +47,7 @@ export function AppSidebar() {
                     </SidebarMenuItem>
                     <SidebarMenuItem>
                         <SidebarMenuButton asChild>
-                            <Link to={"/about"} className="flex w-full items-center justify-center py-8">
+                            <Link to={"/about"} className="flex w-full items-center justify-center py-8" onClick={handleLinkClick}>
                                 <div className="flex w-40 items-center gap-6">
                                       <span className="flex justify-center">
                                         <InfoIcon />
@@ -53,7 +59,7 @@ export function AppSidebar() {
                     </SidebarMenuItem>
                     <SidebarMenuItem>
                         <SidebarMenuButton asChild>
-                            <Link to={"/projects"} className="flex w-full items-center justify-center py-8">
+                            <Link to={"/projects"} className="flex w-full items-center justify-center py-8" onClick={handleLinkClick}>
                                 <div className="flex w-40 items-center gap-6">
                                       <span className="flex justify-center">
                                         <PresentationIcon />
