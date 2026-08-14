@@ -47,7 +47,7 @@ function AppHome() {
                                 <h1>Github</h1>
                             </Button>
                         </a>
-                        <a href="https://rs.linkedin.com/in/maksim-vasi%C4%87-514b11327" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/maksim-vasi%C4%87-066762245/" target="_blank" rel="noreferrer">
                             <Button className="cursor-pointer font-open-sans">
                                 <Linkedin className="w-36 h-36"/>
                                 <h1>LinkedIn</h1>

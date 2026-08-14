@@ -12,6 +12,21 @@ function Timeline() {
                             <div className="absolute w-5 h-5 rounded-[10px] bg-[#cfcfcf] border-2 border-white" />
                         </div>
                         <div className="text-xl pb-16">
+                            <h1 className="font-open-sans text-2xl">August 2026</h1>
+                            <h2 className="text-2xl font-semibold font-open-sans">Petnica Science Center (IS Petnica)</h2>
+                            <h3 className="text-xl font-open-sans">Student -- Computational Finance Seminar</h3>
+                            <h3 className="pb-5 font-open-sans"><i>Petnica, Valjevo, Serbia</i></h3>
+                            <ul className="list-disc ml-4 mt-2 font-open-sans">
+                                <li>Attended an intensive research seminar focused on financial econometrics and quantitative modeling.</li>
+                                <li>Collaborated on a capstone project analyzing futures and stock market data, studying volatility patterns, and backtesting trading strategies.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li className="relative flex gap-10">
+                        <div className="relative before:absolute before:left-2.25 before:h-full before:w-0.5 before:bg-gray-400 items-baseline pt-1.5">
+                            <div className="absolute w-5 h-5 rounded-[10px] bg-[#cfcfcf] border-2 border-white" />
+                        </div>
+                        <div className="text-xl pb-16">
                             <h1 className="font-open-sans text-2xl">2025 - Present</h1>
                             <h2 className="text-2xl font-semibold font-open-sans">WolkAbout, Novi Sad</h2>
                             <h3 className="text-xl font-open-sans">Full Stack Software Development Intern</h3>
@@ -19,6 +34,7 @@ function Timeline() {
                             <ul className="list-disc ml-4 mt-2 font-open-sans">
                                 <li>Developed and maintained a <span className="font-semibold">simulator software</span> that helps engineers facilitate platform testing, allowing validation of data ingestion pipelines without requiring physical industrial hardware.</li>
                                 <li>Collaborated with the core engineering team to integrate various services into the platform, enhancing its industrial interoperability.</li>
+                                <li>Currently collaborating with the R&amp;D team to architect an agentic AI workflow, integrating <span className="font-semibold">LangChain</span> and the <span className="font-semibold">Model Context Protocol (MCP)</span> to securely connect LLMs with live industrial data sources.</li>
                             </ul>
                         </div>
                     </li>
