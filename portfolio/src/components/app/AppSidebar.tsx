@@ -7,7 +7,7 @@ import {
     SidebarMenuButton,
     SidebarMenuItem, useSidebar,
 } from "@/components/ui/sidebar"
-import {HomeIcon, InfoIcon, PresentationIcon} from "lucide-react";
+import {HomeIcon, InfoIcon, NotebookPenIcon, PresentationIcon} from "lucide-react";
 import {Link} from "react-router-dom";
 import {Avatar, AvatarImage} from "@/components/ui/avatar.tsx";
 
@@ -65,6 +65,18 @@ export function AppSidebar() {
                                         <PresentationIcon />
                                       </span>
                                     <span className="font-open-sans text-xl">Projects</span>
+                                </div>
+                            </Link>
+                        </SidebarMenuButton>
+                    </SidebarMenuItem>
+                    <SidebarMenuItem>
+                        <SidebarMenuButton asChild>
+                            <Link to={"/blog"} className="flex w-full items-center justify-center py-8" onClick={handleLinkClick}>
+                                <div className="flex w-40 items-center gap-6">
+                                      <span className="flex justify-center">
+                                        <NotebookPenIcon />
+                                      </span>
+                                    <span className="font-open-sans text-xl">Blog</span>
                                 </div>
                             </Link>
                         </SidebarMenuButton>

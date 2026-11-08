@@ -5,6 +5,8 @@ import {Navigate, Route, Routes} from "react-router-dom";
 import AppHome from "@/pages/AppHome.tsx";
 import AppAbout from "@/pages/AppAbout.tsx";
 import AppProjects from "@/pages/AppProjects.tsx";
+import AppBlog from "@/pages/AppBlog.tsx";
+import AppPost from "@/pages/AppPost.tsx";
 import {ThemeProvider} from "@/components/providers/ThemeProvider.tsx";
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
                     <Route path="/home" element={<AppHome />} />
                     <Route path="/about" element={<AppAbout />} />
                     <Route path="/projects" element={<AppProjects />} />
+                    <Route path="/blog" element={<AppBlog />} />
+                    <Route path="/blog/:slug" element={<AppPost />} />
                     <Route path="*" element={<Navigate to="/home" replace />} />
                 </Routes>
             </main>
