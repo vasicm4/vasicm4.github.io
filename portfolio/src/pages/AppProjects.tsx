@@ -1,5 +1,6 @@
 import {Card, CardAction, CardContent, CardFooter, CardHeader, CardTitle} from "@/components/ui/card.tsx";
 import {Button} from "@/components/ui/button.tsx";
+import {Link} from "react-router-dom";
 
 function AppProjects() {
     return (
@@ -9,6 +10,24 @@ function AppProjects() {
                     <h1 className="font-open-sans text-2xl font-bold">Projects</h1>
                 </div>
                 <div className="grid xl:grid-cols-3 py-8 gap-4">
+                    <Card className="">
+                        <CardHeader>
+                            <CardTitle className="font-open-sans">forkasm</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <h1 className="text-justify font-open-sans">A Rust library that forks a running WebAssembly sandbox (memory, globals, WASI state and filesystem) in about 100 µs, many ways and many levels deep, so an AI agent can branch mid-task and keep the best path. Built on copy-on-write memfd layers and userfaultfd write-protect tracking.</h1>
+                        </CardContent>
+                        <CardFooter>
+                            <CardAction className="flex gap-2">
+                                <a href="https://github.com/vasicm4/forkasm" target="_blank" rel="noreferrer">
+                                    <Button className="cursor-pointer font-open-sans">Repository</Button>
+                                </a>
+                                <Link to="/blog/forkasm">
+                                    <Button variant="outline" className="cursor-pointer font-open-sans">Blog post</Button>
+                                </Link>
+                            </CardAction>
+                        </CardFooter>
+                    </Card>
                     <Card className="">
                         <CardHeader>
                             <CardTitle className="font-open-sans">Aegis IoT</CardTitle>
