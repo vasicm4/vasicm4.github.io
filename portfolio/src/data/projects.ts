@@ -38,6 +38,7 @@ export const projects: Project[] = [
         period: "Sep – Oct 2026",
         year: 2026,
         featured: true,
+        post: "/blog/kws-accent-robustness",
     },
     {
         name: "PicoGPT",

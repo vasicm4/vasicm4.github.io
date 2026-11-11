@@ -1,5 +1,6 @@
 import forkasm from "./forkasm.md?raw";
 import usageWarehouse from "./usage-warehouse.md?raw";
+import kwsAccent from "./kws-accent-robustness.md?raw";
 
 export type Post = {
     slug: string;
@@ -30,6 +31,15 @@ export const posts: Post[] = [
         date: "2026-11-08",
         tags: ["Rust", "WebAssembly", "Linux"],
         body: forkasm,
+    },
+    {
+        slug: "kws-accent-robustness",
+        title: "Does a keyword spotter understand a Serbian accent?",
+        summary:
+            "A 99k-parameter CNN trained on Speech Commands, tested on 19 Serbian-accented speakers I recorded. The accuracy gap is small and uncertain, the errors change kind, augmentation doesn't help, and 50 clips of fine-tuning do.",
+        date: "2026-10-13",
+        tags: ["PyTorch", "Speech", "Machine learning"],
+        body: kwsAccent,
     },
 ];
 
