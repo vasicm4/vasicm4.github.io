@@ -27,7 +27,7 @@ export function AppSidebar() {
                     </Avatar>
                     <div className={"flex flex-col justify-start items-start"}>
                         <h1 className={"font-open-sans text-center text-lg font-medium"}>Maksim Vasic</h1>
-                        <h1 className={"font-open-sans text-center text-sm font-extralight"}>Software Developer</h1>
+                        <h1 className={"font-open-sans text-center text-sm font-extralight"}>Software Engineer</h1>
                     </div>
                 </div>
             </SidebarHeader>
