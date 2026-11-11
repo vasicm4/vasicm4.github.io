@@ -30,6 +30,21 @@ function AppProjects() {
                     </Card>
                     <Card className="">
                         <CardHeader>
+                            <CardTitle className="font-open-sans">KWS Accent Robustness</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <h1 className="text-justify font-open-sans">Measuring and reducing the accuracy gap of a keyword-spotting CNN on Serbian-accented speech. A 99k-parameter CNN trained on Google Speech Commands v2 is tested on an original set of 19 Serbian-accented speakers, comparing training-time augmentation against few-shot fine-tuning.</h1>
+                        </CardContent>
+                        <CardFooter>
+                            <CardAction>
+                                <a href="https://github.com/vasicm4/kws-accent-robustness" target="_blank" rel="noreferrer">
+                                    <Button className="cursor-pointer font-open-sans">Repository</Button>
+                                </a>
+                            </CardAction>
+                        </CardFooter>
+                    </Card>
+                    <Card className="">
+                        <CardHeader>
                             <CardTitle className="font-open-sans">Aegis IoT</CardTitle>
                         </CardHeader>
                         <CardContent>
@@ -90,6 +105,21 @@ function AppProjects() {
                     </Card>
                     <Card className="">
                         <CardHeader>
+                            <CardTitle className="font-open-sans">IP-System</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <h1 className="text-justify font-open-sans">A high-performance, thread-safe industrial task processing engine in C#. An event-driven, asynchronous producer-consumer model with a priority job queue, configurable worker pool, retries and timeout handling for high-load workflows.</h1>
+                        </CardContent>
+                        <CardFooter>
+                            <CardAction>
+                                <a href="https://github.com/vasicm4/ip-system" target="_blank" rel="noreferrer">
+                                    <Button className="cursor-pointer font-open-sans">Repository</Button>
+                                </a>
+                            </CardAction>
+                        </CardFooter>
+                    </Card>
+                    <Card className="">
+                        <CardHeader>
                             <CardTitle className="font-open-sans">Chaotic Cupid</CardTitle>
                         </CardHeader>
                         <CardContent>
@@ -98,6 +128,21 @@ function AppProjects() {
                         <CardFooter>
                             <CardAction>
                                 <a href="https://github.com/vasicm4/chaotic-cupid" target="_blank" rel="noreferrer">
+                                    <Button className="cursor-pointer font-open-sans">Repository</Button>
+                                </a>
+                            </CardAction>
+                        </CardFooter>
+                    </Card>
+                    <Card className="">
+                        <CardHeader>
+                            <CardTitle className="font-open-sans">Graph Visualiser</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <h1 className="text-justify font-open-sans">A team-built web tool for exploring graphs, with a plugin-based architecture. Loads graphs from CSV, JSON or XML and shows them in three synchronized views (Tree, Bird&apos;s Eye, Main), with search, attribute filters and a built-in CLI. Runs on both Django and Flask.</h1>
+                        </CardContent>
+                        <CardFooter>
+                            <CardAction>
+                                <a href="https://github.com/vasicm4/graph-visualizer" target="_blank" rel="noreferrer">
                                     <Button className="cursor-pointer font-open-sans">Repository</Button>
                                 </a>
                             </CardAction>
