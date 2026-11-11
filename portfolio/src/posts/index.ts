@@ -1,4 +1,5 @@
 import forkasm from "./forkasm.md?raw";
+import usageWarehouse from "./usage-warehouse.md?raw";
 
 export type Post = {
     slug: string;
@@ -12,6 +13,15 @@ export type Post = {
 
 // Newest first.
 export const posts: Post[] = [
+    {
+        slug: "usage-warehouse",
+        title: "I ran my data warehouse design doc until it broke",
+        summary:
+            "A warehouse for Trino and Iceberg table usage, tested by extracting the SQL straight from the design doc and running it: against a Python reference, on real Trino over S3, and with 10M synthetic queries. Fourteen things broke.",
+        date: "2026-11-11",
+        tags: ["Trino", "Iceberg", "Data engineering"],
+        body: usageWarehouse,
+    },
     {
         slug: "forkasm",
         title: "Forking a running WebAssembly sandbox in 100 µs",
